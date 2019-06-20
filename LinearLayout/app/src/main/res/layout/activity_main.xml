@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 2 - 3 - 4 - 1 -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        android:background="#E4E424">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1"
+            android:layout_weight="1"
+            android:textSize="40sp"
+            android:background="#797948"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="2"
+            android:layout_weight="1"
+            android:textSize="40sp"
+            android:background="#797948"/>
+    </LinearLayout>
+    <!--<TextView-->
+        <!--android:layout_weight="2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="Android"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textColor="#ff32"-->
+        <!--android:background="#ff0"/>-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight="3"
+        android:layout_height="match_parent"
+        android:background="#3D8A72">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1"
+            android:layout_weight="1"
+            android:textSize="40sp"
+            android:background="#fff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="2"
+            android:layout_weight="1"
+            android:textSize="40sp"
+            android:background="#ff0"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="3"
+            android:layout_weight="1"
+            android:textSize="40sp"
+            android:background="#62C22E"/>
+    </LinearLayout>
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="3"-->
+        <!--android:background="#272121"-->
+        <!--android:text="Unity"-->
+        <!--android:textColor="#fff"-->
+        <!--android:textSize="30sp" />-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        android:background="#3D8A72">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1"
+            android:layout_weight="1"
+            android:textSize="40sp"
+            android:background="#E40808"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="40sp"
+            android:text="2"
+            android:layout_weight="3"/>
+    </LinearLayout>
+
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="3"-->
+        <!--android:background="#3D8A72"-->
+        <!--android:text="ASP.NET"-->
+        <!--android:textColor="#FFFFFF"-->
+        <!--android:textSize="30sp" />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:background="#745932"
+        android:text="PHP"
+        android:textColor="#57B380"
+        android:textSize="30sp" />
+
+</LinearLayout>

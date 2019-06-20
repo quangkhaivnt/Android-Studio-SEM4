@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_long"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBox
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkboxThree"/>
+
+    <CheckBox
+        android:layout_above="@id/checkboxThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkboxTwo"/>
+
+    <CheckBox
+        android:layout_above="@id/checkboxTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkboxOne"/>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/seekbarThree"
+        android:layout_toRightOf="@id/checkboxThree"
+        android:layout_alignParentBottom="true"/>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/seekbarTwo"
+        android:layout_toRightOf="@id/checkboxTwo"
+        android:layout_above="@id/seekbarThree"/>
+
+    <SeekBar
+        android:thumb="@drawable/long4"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/seekbarOne"
+        android:layout_above="@id/seekbarTwo"
+        android:layout_toRightOf="@id/checkboxOne"/>
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:stretchColumns="1"
+    android:layout_margin="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <TextView
+            android:text="Đăng Nhập"
+            android:layout_span="2"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Username" android:textStyle="bold"/>
+        <EditText android:hint="Nhập Id" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Password" android:textStyle="bold"/>
+        <EditText android:inputType="textPassword"
+            android:hint="Nhập Mật Khẩu"/>
+    </TableRow>
+    <LinearLayout android:gravity="center" android:orientation="horizontal">
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:text="Ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:backgroundTint="#291010"
+            android:text="Hủy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Quên Mật Khẩu"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:backgroundTint="#291010"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</TableLayout>
